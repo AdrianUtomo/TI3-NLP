@@ -43,5 +43,5 @@ class Performance :
     def execute(self):
         res = ""
         res += "Candidate Accuracy: " + str(self.candidate_accuracy()) + "%\n"
-        res += "Best Match Accuracy: " + str(self.best_match_accuracy()) + "%\n"
+        res += "Best Match Accuracy: " + str(self.best_match_accuracy()+ "%")
         return res
