@@ -1,17 +1,18 @@
 [Adrian Hakim Utomo - 2006597613]
 ---------- lev_trie ----------
 Candidate Accuracy: 97.75251872901059%
-Best Match Accuracy: 35.98553345388788
+Best Match Accuracy: 35.98553345388788%
 Run-Time: 234.92183136940002 seconds
 ---------- dalev_trie ----------
 Candidate Accuracy: 99.01834151382072%
-Best Match Accuracy: 38.181348488762595
+Best Match Accuracy: 38.181348488762595%
 Run-Time: 273.6311311721802 seconds
 ---------- lev_dict ----------
 Candidate Accuracy: 97.75251872901059%
-Best Match Accuracy: 35.98553345388788
+Best Match Accuracy: 35.98553345388788%
 Run-Time: 260.69066405296326 seconds
 ---------- dalev_dict ----------
 Candidate Accuracy: 99.01834151382072%
-Best Match Accuracy: 38.181348488762595
+Best Match Accuracy: 38.181348488762595%
 Run-Time: 2187.1994547843933 seconds
+
