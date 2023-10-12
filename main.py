@@ -1,11 +1,11 @@
+# Adrian Hakim Utomo - 2006597613 NLP 2022/2023
+
 from performance import Performance
 from trie_structure.levenshtein_trie import LevenshteinTrie
 from trie_structure.damerau_levenshtein_trie import DamerauLevenshteinTrie
 from dict_structure.levenshtein_dict import LevenshteinDict
 from dict_structure.damerau_levenshtein_dict import DamerauLevenshteinDict
-import json
 import time
-
 
 """ 
 TODO: Hitung akurasi dan Run-Time dari semua algoritma yang sudah disediakan, seperti 

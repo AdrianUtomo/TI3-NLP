@@ -1,3 +1,4 @@
+# Adrian Hakim Utomo - 2006597613 NLP 2022/2023
 
 """
 TODO: Gunakan file performance.py ini untuk membuat class Performance yang 
