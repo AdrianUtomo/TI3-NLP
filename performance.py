@@ -9,7 +9,6 @@ dan run-time
 import json
 import time
 
-
 class Performance :
     def __init__(self, algo, saltik_path):
         self.saltik = json.load(open(saltik_path))
@@ -33,14 +32,14 @@ class Performance :
                 candidate_list = self.algo.get_candidates(j['typo'], 2)
                 if i == candidate_list[0]:
                     M_best_match += 1
-                elif i in candidate_list:
+                if i in candidate_list:
                     M_candidate += 1
         end = time.time()
 
         result = {
             "candidate": (M_candidate/self.N)*100,
             "best_match": (M_best_match/self.N)*100,
-            "runtime": (start-end)
+            "runtime": (end-start)
         }
         return result
 
@@ -48,6 +47,6 @@ class Performance :
         accuracy = self.calculate_accuracy()
         res = ""
         res += "Candidate Accuracy: " + str(accuracy["candidate"]) + "%\n"
-        res += "Best Match Accuracy: " + str(accuracy["best_match"] + "%\n")
+        res += "Best Match Accuracy: " + str(accuracy["best_match"]) + "%\n"
         res += "Run-Time: " + str(accuracy["runtime"]) + " seconds"
         return res
