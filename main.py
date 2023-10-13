@@ -5,7 +5,6 @@ from trie_structure.levenshtein_trie import LevenshteinTrie
 from trie_structure.damerau_levenshtein_trie import DamerauLevenshteinTrie
 from dict_structure.levenshtein_dict import LevenshteinDict
 from dict_structure.damerau_levenshtein_dict import DamerauLevenshteinDict
-import time
 
 """ 
 TODO: Hitung akurasi dan Run-Time dari semua algoritma yang sudah disediakan, seperti 
